@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<h1> 06.Create an array like this. var fruits = ["Apple"];
+    6.1) Add Pineapple , Lemon  before “Apple”
+6.2) Add “Orange", "Peach" after “Apple”
+(Use suitable codes to create this array)
+
+
+</h1>-->
+</head>
+<body>
+
+
+<script>
+  var fruits = ["Apple"];
+  fruits.splice(0,0, "Pineapple", "Lemon");
+  console.log(fruits);
+  fruits.splice(3, 0, "Orange", "Peach");
+  console.log(fruits);
+  console.log(fruits[2]);
+  console.log("");
+  for (i = fruits.length-1; i => 0;i--) {
+  for (i = fruits.length-1; i >= 0;i--) {
+  console.log(fruits[i]);
+}
+document.getElementById("a").innerHTML = fruits;
+
+</script>
+
+</body>
+</html>
